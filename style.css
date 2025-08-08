@@ -1,0 +1,109 @@
+
+    body {
+      background-image: url("img.jpg");
+      background-size: cover;
+      overflow:hidden;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Center heading at top */
+    .page-title {
+      text-align: center;
+      margin-top: 46px;
+      font-size: 40px;
+      color: white;
+      text-shadow: 4px 1px 2px black;
+    }
+
+    /* Center glass box in middle */
+    .center-box {
+      height: calc(100vh - 100px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .glass-container {
+      width: 380px;
+      padding: 40px;
+      border-radius: 20px;
+      background-color: #f0f0f0; /* Ash color */
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
+      z-index: 10;
+      overflow: hidden;
+      color: black;
+    }
+
+    .input-group {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.2);
+      color: black;
+      outline: none;
+    }
+
+    .input-group label {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      color: black;
+      font-size: 14px;
+    }
+
+    .remember-forgot {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .remember-forgot a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    .remember-forgot a:hover {
+      text-decoration: underline;
+    }
+
+    .submit-btn {
+      background-color: #0a0a0a;
+      width: 400px;
+  color: rgb(228, 235, 234);
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+   /* ORIGINAL*/
+
+    .submit-btn:hover {
+      background-color: #0f1f4893;
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(19, 19, 22, 0.15);
+    }
+
+    .register-link{
+      width: 100%;
+      padding: 5px;
+
+      
+      color: rgb(18, 14, 14);
+      border-radius: 8px;
+      font-size: 16px;
+      
+      margin-top: 20px;
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
